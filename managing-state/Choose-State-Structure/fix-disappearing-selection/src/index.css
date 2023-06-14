@@ -46,4 +46,6 @@ ul {
   padding-left: 20px;
 }
 
-label { display: block; margin-bottom: 20px; }
+button { margin: 5px; }
+li { border-radius: 5px; }
+.highlighted { background: #d2eaff; }

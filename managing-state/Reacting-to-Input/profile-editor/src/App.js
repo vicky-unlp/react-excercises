@@ -9,6 +9,31 @@
 
 // Make sure that it updates the text at the bottom, too!
 
+// Original:
+
+// export default function EditProfile() {
+//   return (
+//     <form>
+//       <label>
+//         First name:{' '}
+//         <b>Jane</b>
+//         <input />
+//       </label>
+//       <label>
+//         Last name:{' '}
+//         <b>Jacobs</b>
+//         <input />
+//       </label>
+//       <button type="submit">
+//         Edit Profile
+//       </button>
+//       <p><i>Hello, Jane Jacobs!</i></p>
+//     </form>
+//   );
+// }
+
+// Solution: 
+
 import { useState } from 'react';
 
 export default function EditProfile() {
@@ -55,4 +80,4 @@ export default function EditProfile() {
   );
 }
 
-// Se copio la solución. Revisar.
+// Se copio la solución, revisar y tratar de hacerlo solo.
